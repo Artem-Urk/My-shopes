@@ -1,0 +1,24 @@
+<!-- Дополнительный блок для увеличения разнообразия тегов -->
+<details style="margin-top: 24px;">
+    <summary style="cursor: pointer; font-weight: 600;">📋 Дополнительная информация</summary>
+    <div style="margin-top: 16px;">
+        <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+            <thead>
+                <tr style="background: #eef3fc;">
+                    <th style="padding: 10px; text-align: left; border-radius: 12px 0 0 0;">Параметр</th>
+                    <th style="padding: 10px; text-align: left; border-radius: 0 12px 0 0;">Значение</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td style="padding: 10px; border-bottom: 1px solid #e2e8f2;">Вес</td><td style="padding: 10px; border-bottom: 1px solid #e2e8f2;">3.2 кг</td></tr>
+                <tr><td style="padding: 10px; border-bottom: 1px solid #e2e8f2;">Габариты</td><td style="padding: 10px; border-bottom: 1px solid #e2e8f2;">35 × 35 × 9.7 см</td></tr>
+            </tbody>
+        </table>
+        <form style="margin-top: 16px; display: flex; gap: 12px; flex-wrap: wrap;" onsubmit="event.preventDefault(); alert('Отзыв отправлен (демо)');">
+            <label for="review" style="font-weight: 600; align-self: center;">Ваш отзыв:</label>
+            <input type="text" id="review" placeholder="Коротко о товаре" style="padding: 10px 16px; border-radius: 30px; border: 1px solid #d0d8e5; flex: 1; min-width: 200px;">
+            <button type="submit" style="background: #2a6df4; color: white; border: none; padding: 10px 24px; border-radius: 30px; font-weight: 600; cursor: pointer;">Отправить</button>
+        </form>
+        <p style="margin-top: 16px; font-size: 0.85rem;">Дата публикации: <time datetime="2026-10-25">25 октября 2026</time> · <abbr title="Рекомендуемая розничная цена">РРЦ</abbr>: <mark style="background: #ffd966; padding: 2px 6px; border-radius: 6px;">32 990 ₽</mark></p>
+    </div>
+</details>
